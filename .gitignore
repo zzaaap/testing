@@ -19,4 +19,6 @@ publish/
 # Local History for Visual Studio Code
 .history/
 
-/archive
+# Do not upload your archive folder and its contents
+archive/
+
