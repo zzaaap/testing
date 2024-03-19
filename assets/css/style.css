@@ -3,7 +3,7 @@
   --text-color: #202124;
   --gray-color: #EDEEF1;
   --h1-color: #BDC0C3;
-  --test-color: #ff3131;
+  --test-color: #31ffb7;
   --logo-size: 275px;
 }
 
@@ -42,9 +42,9 @@ body {
 }
 
 .popup-flex {
-  margin: 30px;
-  padding: 10px;
+  padding: 5px;
   border: 1px dashed var(--test-color);
+  border-radius: 20px;
 }
 
 .popup-container {
