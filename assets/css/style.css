@@ -63,7 +63,7 @@ body {
   z-index: 1;
 }
 
-/* Pop-up container */
+/* Pop-up container main */
 .popup-content {
   height: 600px;
   width: 900px;
@@ -73,16 +73,16 @@ body {
   border-radius: 20px;
 }
 
-/* Close button */
+/* Close button inside pop-up container */
 .popup-content span {
-  color: var(--text-color);
+  color: var(--h1-color);
   float: right;
   padding: 11px 14px;
 }
 
 .popup-content span:hover,
 .popup-content span:focus {
-  color: var(--h1-color);
+  color: var(--test-color);
   text-decoration: none;
   cursor: pointer;
   border-radius: 20px;
@@ -103,7 +103,7 @@ body {
   border-radius: 3px;
 }
 
-/* Logo Button */
+/* Logo button */
 button {
   padding: 15px 80px;
   cursor: pointer;
