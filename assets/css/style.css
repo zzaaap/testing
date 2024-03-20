@@ -3,7 +3,7 @@
   --text-color: #202124;
   --gray-color: #EDEEF1;
   --h1-color: #BDC0C3;
-  --test-color: #44464C;
+  --hl-color: #EF3B50;
 
   --logo-size: 275px;
 }
@@ -32,6 +32,7 @@ body {
     --text-color: #202124;
     --gray-color: #EDEEF1;
     --h1-color: #BDC0C3;
+    --hl-color: #ff3950;
   }
 }
 
@@ -40,7 +41,8 @@ body {
     --bg-color: #202124;
     --text-color: #BDC0C3;
     --gray-color: #26282B;
-    --h1-color: #EF3B50;
+    --h1-color: #44464C;
+    --hl-color: #c31227;
   }
 }
 
@@ -82,7 +84,7 @@ body {
 
 .popup-content span:hover,
 .popup-content span:focus {
-  color: var(--test-color);
+  color: var(--hl-color);
   text-decoration: none;
   cursor: pointer;
   border-radius: 20px;
@@ -110,7 +112,7 @@ button {
   transition: transform 0.15s ease-in-out;
   background: transparent;
   color: var(--text-color);
-  border: 1px dashed var(--test-color);
+  border: 1px dashed var(--hl-color);
   border-radius: 100px;
 }
 
